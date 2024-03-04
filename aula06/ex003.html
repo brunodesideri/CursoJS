@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa...</title>
     <style>
+        .alert{
+            background-color: black;
+            color: white;
+        }
         body {
             background-color: rgb(133, 3, 3);
         }
@@ -15,14 +19,19 @@
             padding: 8px;
             margin: 20px 8px 8px 8px;
             text-align: center;
-            font-family: cursive;  
+            font-family: cursive;
+            border-radius: 30px;
         }
         
         p {
+            background-color: rgb(179, 0, 0);            
             color: white;
             font-size: 25pt;
-            text-align: center;
-
+            text-align: center;margin: 20px auto 20px auto;
+            width: 380px;
+            border-radius: 40px;
+            padding: 10px;
+            
         }
     </style>
 </head>
@@ -30,11 +39,11 @@
     <h1>Hello World! Olá, Mundo!</h1>
     <p>Já me livrei da maldição</p>
 
-    <script>
-        //Alerta, confirma e prompt        
-        window.alert('Socorro!')
-        window.confirm('Está gostando?')
-        window.prompt('Qual é seu nome?')         
+    <script>        
+       var n1 = Number(window.prompt('Digite um número: '))
+       var n2 = Number(window.prompt('Digite outro número: '))      
+       var s = n1+n2
+       window.alert(`A soma entre o número ${n1} e ${n2} é = ${s}`) 
     </script>
 </body>
 </html>
