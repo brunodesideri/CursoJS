@@ -42,8 +42,8 @@
     <script>        
        var n1 = Number(window.prompt('Digite um número: '))
        var n2 = Number(window.prompt('Digite outro número: '))      
-       var s = n1+n2
-       window.alert(`A soma entre o número ${n1} e ${n2} é = ${s}`) 
+       var s = n1+n2          
+       window.alert(`A soma entre o número ${n1} e ${n2} é = ${s.toLocaleString('pt-br',{style: 'currency',currency :'BRL'})}`)    
     </script>
 </body>
 </html>
