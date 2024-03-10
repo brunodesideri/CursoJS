@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserir Imagem com JavaScript</title>
+</head>
+<body>
+    <!-- Este é o local onde a imagem será inserida -->
+    <div id="container-imagem"></div>
+
+    <!-- Inclua seu script JavaScript -->
+    <script>// Criar um elemento de imagem
+var imagem = document.createElement('img');
+
+// Definir o caminho da imagem
+imagem.src = 'caminho/para/sua/imagem.jpg';
+
+// Adicionar classes, alt text, ou outros atributos conforme necessário
+imagem.alt = 'Descrição da imagem';
+imagem.classList.add('classe-da-imagem');
+
+// Adicionar a imagem ao contêiner de imagem
+var containerImagem = document.getElementById('container-imagem');
+containerImagem.appendChild(imagem);</script>
+</body>
+</html>
