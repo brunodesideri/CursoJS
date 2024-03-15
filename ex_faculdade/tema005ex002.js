@@ -8,7 +8,7 @@ numeros[0] = soliticaPrimeiroNumero();
 numeros[1] = soliticaSegundoNumero();
  
  //Declaração de atribuição de valor à variável que armazenará o resultado da divisão
- //O resultado da divisão virá da função 'divida' (esse função recebe como parâmetro o array 'numeros')
+ //O resultado da divisãoo virá da função 'divida' (esse função recebe como parâmetro o array 'numeros')
  var resultadoDivisao = divida(numeros);
  
  //Exibindo o resultado da divisão na tela
